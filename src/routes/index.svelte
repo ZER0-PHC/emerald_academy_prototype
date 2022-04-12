@@ -1,6 +1,7 @@
 
 <script>
 	import Auth from '$lib/Auth.svelte';
+import Landing from '$lib/Landing.svelte';
   import Transaction from '$lib/Transaction.svelte';
 
 </script>
@@ -13,4 +14,5 @@
   <Transaction />
 </div>
 
-<Auth/>
+<!-- <Auth/> -->
+<Landing />

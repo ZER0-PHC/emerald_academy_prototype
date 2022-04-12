@@ -39,6 +39,9 @@
   --switch-checked-background-color: var(--primary);
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 button {
   font-weight: bold;
 }

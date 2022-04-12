@@ -1,15 +1,20 @@
 <script>
   import Header from "$lib/header/Header.svelte";
+import MockHeader from "$lib/header/MockHeader.svelte";
   import "../app.css";
 </script>
 
-<Header />
+<!-- <Header /> -->
+<div style="max-width:100vw">
+
+  <MockHeader />
+</div>
 
 <main class="container">
   <slot />
 </main>
 
-<footer>
+<!-- <footer>
   <p>
     visit <a href="https://docs.onflow.org">docs.onflow.org</a> to learn more.
   </p>
@@ -20,7 +25,7 @@
       </svg>        
     </a>
   </p>
-</footer>
+</footer> -->
 
 <style>
   footer {

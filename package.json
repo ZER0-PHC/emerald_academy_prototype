@@ -19,5 +19,9 @@
     "rollup-plugin-node-globals": "^1.4.0",
     "svelte": "^3.44.3"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@lottiefiles/lottie-interactivity": "^1.5.0",
+    "@lottiefiles/lottie-player": "^1.5.6"
+  }
 }
